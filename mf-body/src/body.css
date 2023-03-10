@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+.main {
+    background-image: url("/src/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position: center;
+    font-family: 'Golos Text', sans-serif;
+    background-color: #f7f7f7;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 32px;
+}
+
+.product-card {
+    border-radius: 10%;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card img {
+    margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    color:#993c0f;
+    margin: 0;
+    font-size: 24px;
+}
+
+.product-card p {
+    margin: 8px 0;
+}
+
+.button {
+    font-family: 'Golos Text', sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+
+.button-primary {
+    background-color: #903345;
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: #fff;
+    border: 1px solid #4a4a4a;
+    color: #4a4a4a;
+}
